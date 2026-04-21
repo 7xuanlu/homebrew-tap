@@ -7,14 +7,14 @@ class OriginMcp < Formula
   on_macos do
     on_arm do
       url "https://github.com/7xuanlu/origin-mcp/releases/download/v#{version}/origin-mcp-darwin-arm64.tar.gz"
-      sha256 "283071534e51f349b31da978c9ce496396e2552252898b1e0db3044e5daec354"
+      sha256 "68c1862085709cc46c367f3c1c72b422284b68576e65d1732d366586fb080b44"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/7xuanlu/origin-mcp/releases/download/v#{version}/origin-mcp-linux-x64.tar.gz"
-      sha256 "16d16f8ddab3a3ba0ddd4bc999a6b6def33c09f49c3414625d9626cb09553067"
+      sha256 "ec799960158aa6743ec3f65d10d9a150d76ac2851405afd692a73ab4632ca375"
     end
   end
 
