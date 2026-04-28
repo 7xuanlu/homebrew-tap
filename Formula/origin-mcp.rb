@@ -11,7 +11,12 @@ class OriginMcp < Formula
     strategy :github_latest
   end
 
+  on_macos do
+    depends_on arch: :arm64
+  end
+
   on_linux do
+    depends_on arch: :x86_64
     on_intel do
       url "https://github.com/7xuanlu/origin-mcp/releases/download/v0.2.0/origin-mcp-linux-x64.tar.gz"
       sha256 "cd4afb9ebbedd8eec56fcab6a7ff9da0db66a565a955073111e08caf4116773b"
