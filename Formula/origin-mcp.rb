@@ -3,7 +3,7 @@ class OriginMcp < Formula
   homepage "https://github.com/7xuanlu/origin-mcp"
   url "https://github.com/7xuanlu/origin-mcp/releases/download/v0.4.0/origin-mcp-darwin-arm64.tar.gz"
   version "0.4.0"
-  sha256 "303c54f48f6330c234aa9ccbf885974fa2c2a244e60301bb9826cfec90c97fcc"
+  sha256 "ce55ef0009cc4970d40d4cd1bbfa0e64696a2eb1167e6874fe93766968b69475"
   license "MIT"
 
   livecheck do
@@ -19,7 +19,7 @@ class OriginMcp < Formula
     depends_on arch: :x86_64
     on_intel do
       url "https://github.com/7xuanlu/origin-mcp/releases/download/v0.4.0/origin-mcp-linux-x64.tar.gz"
-      sha256 "bcbddb48d25a37a55f304c02e0931189070a2da71e9ac3b94dc25dd336e2a29e"
+      sha256 "424dface812f78049843bd0e960c09c6f671dbd72bf5090896e5b7b1635016ea"
     end
   end
 
