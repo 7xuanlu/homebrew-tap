@@ -1,9 +1,9 @@
 class OriginMcp < Formula
   desc "MCP server for Origin — personal agent memory layer"
   homepage "https://github.com/7xuanlu/origin"
-  version "main"
-  url "https://github.com/7xuanlu/origin/releases/download/vmain/origin-mcp-darwin-arm64.tar.gz"
-  sha256 "ce3b27f7e7aea451154d71e71c0965713aea12fa25c3af8647bbdc9b8078cbd9"
+  version "0.5.0"
+  url "https://github.com/7xuanlu/origin/releases/download/v0.5.0/origin-mcp-darwin-arm64.tar.gz"
+  sha256 "6b8924e95d5a40f124491125a076f9796dc6d5fab00921974ed5f7d2e9646df0"
   license "Apache-2.0"
 
   livecheck do
