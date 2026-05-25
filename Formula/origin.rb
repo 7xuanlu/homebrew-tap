@@ -3,7 +3,7 @@ class Origin < Formula
   homepage "https://github.com/7xuanlu/origin"
   version "0.7.0"
   url "https://github.com/7xuanlu/origin/releases/download/v0.7.0/origin-darwin-arm64.tar.gz"
-  sha256 "662cfdcce81fecf00616a839938c6fcd9633915e8335cd0029262582d1bf0521"
+  sha256 "ca1f0723b56d69818cee127ee48f8b721105714f137b41fe96b132058feb0bd5"
   license "Apache-2.0"
 
   livecheck do
