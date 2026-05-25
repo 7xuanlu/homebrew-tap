@@ -3,7 +3,7 @@ class OriginMcp < Formula
   homepage "https://github.com/7xuanlu/origin"
   version "0.7.0"
   url "https://github.com/7xuanlu/origin/releases/download/v0.7.0/origin-mcp-darwin-arm64.tar.gz"
-  sha256 "bd5b2c8d91cd05f970be868f4b36514df0bfaf4aab10da099f08b4c7bc5d4cb6"
+  sha256 "9e09268e6f85fa038a578f505a48cd327f5705622c9eb041fb6089fd13196ae2"
   license "Apache-2.0"
 
   livecheck do
