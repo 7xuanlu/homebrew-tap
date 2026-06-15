@@ -1,8 +1,8 @@
 class Origin < Formula
   desc "Origin CLI — local-first memory + knowledge layer for AI agents"
   homepage "https://github.com/7xuanlu/origin"
-  version "0.8.3"
-  url "https://github.com/7xuanlu/origin/releases/download/v0.8.3/origin-darwin-arm64.tar.gz"
+  version "0.8.4"
+  url "https://github.com/7xuanlu/origin/releases/download/v0.8.4/origin-darwin-arm64.tar.gz"
   sha256 ""
   license "Apache-2.0"
 
