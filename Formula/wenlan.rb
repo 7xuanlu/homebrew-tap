@@ -1,9 +1,9 @@
 class Wenlan < Formula
   desc "Wenlan CLI — local-first memory + knowledge layer for AI agents"
   homepage "https://github.com/7xuanlu/wenlan"
-  version "0.13.0"
-  url "https://github.com/7xuanlu/wenlan/releases/download/v0.13.0/wenlan-cli-darwin-arm64.tar.gz"
-  sha256 "24a8770049b4f7fa0cafbb855b62e453ccd1bbb4bba6ec3e7b0bc0b8cc8a1f47"
+  version "0.13.1"
+  url "https://github.com/7xuanlu/wenlan/releases/download/v0.13.1/wenlan-cli-darwin-arm64.tar.gz"
+  sha256 "ac7c7ea0ad081ca4636996ccbb81b7589ebc255c48eb4bc84d2419ab6e5eb915"
   license "Apache-2.0"
 
   livecheck do
