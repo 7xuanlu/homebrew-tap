@@ -1,9 +1,9 @@
 class Wenlan < Formula
-  desc "Wenlan CLI â€” local-first memory + knowledge layer for AI agents"
+  desc "Wenlan CLI and daemon — local-first memory + knowledge layer for AI agents"
   homepage "https://github.com/7xuanlu/wenlan"
-  version "0.17.0"
-  url "https://github.com/7xuanlu/wenlan/releases/download/v0.17.0/wenlan-cli-darwin-arm64.tar.gz"
-  sha256 "feaaa6c5daf9eb13c10400578f7a1b59d7d3670592c7f19d774c4d96c01f76ad"
+  version "0.17.1"
+  url "https://github.com/7xuanlu/wenlan/releases/download/v0.17.1/wenlan-darwin-arm64.tar.gz"
+  sha256 "6c7f7a2e5a3df9086ee84c306b8f371228517b7b4b832b1a6894796e59d91d01"
   license "Apache-2.0"
 
   livecheck do
@@ -16,10 +16,11 @@ class Wenlan < Formula
   end
 
   def install
-    bin.install "wenlan"
+    bin.install "wenlan", "wenlan-server"
   end
 
   test do
     assert_match "wenlan", shell_output("#{bin}/wenlan --help")
+    assert_match "wenlan-server", shell_output("#{bin}/wenlan-server --help")
   end
 end
