@@ -1,9 +1,9 @@
 class WenlanMcp < Formula
   desc "MCP server for Wenlan — personal agent memory layer"
   homepage "https://github.com/7xuanlu/wenlan"
-  version "0.18.10"
-  url "https://github.com/7xuanlu/wenlan/releases/download/v0.18.10/wenlan-mcp-darwin-arm64.tar.gz"
-  sha256 "d7edb957890d7bfaab4c4a68f8cffe82d0fe9df6666170239cdd2c760a3446b5"
+  version "0.18.11"
+  url "https://github.com/7xuanlu/wenlan/releases/download/v0.18.11/wenlan-mcp-darwin-arm64.tar.gz"
+  sha256 "9044a278d9111e70239d88eec0f1fc621e189d65a4613dab0ecba91e340e2a1f"
   license "Apache-2.0"
 
   livecheck do
