@@ -1,9 +1,9 @@
 class WenlanMcp < Formula
   desc "MCP server for Wenlan, the knowledge base your AI tools keep organized"
   homepage "https://github.com/wenlan-app/wenlan"
-  version "0.21.5"
-  url "https://github.com/wenlan-app/wenlan/releases/download/v0.21.5/wenlan-mcp-darwin-arm64.tar.gz"
-  sha256 "5f5e4f5cf048feba0fd28a2b5eaa2da84f26f0301108733849fc8da4e0477cc0"
+  version "0.21.6"
+  url "https://github.com/wenlan-app/wenlan/releases/download/v0.21.6/wenlan-mcp-darwin-arm64.tar.gz"
+  sha256 "a80800114b8ef740f02c5376a8f3bb4b7f729b97d50972677c9fb71322c4fe0e"
   license "Apache-2.0"
 
   livecheck do
