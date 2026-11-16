@@ -1,9 +1,9 @@
 class Wenlan < Formula
-  desc "Wenlan CLI and daemon, the knowledge base your AI tools keep organized"
+  desc "Wenlan CLI and daemon: docs, skills and rules your AI tools keep current"
   homepage "https://github.com/wenlan-app/wenlan"
-  version "0.21.7"
-  url "https://github.com/wenlan-app/wenlan/releases/download/v0.21.7/wenlan-darwin-arm64.tar.gz"
-  sha256 "21518b0b4283c024505c48a319db19bd9b8bbe104773bb933571e17b6c7da161"
+  version "0.22.0"
+  url "https://github.com/wenlan-app/wenlan/releases/download/v0.22.0/wenlan-darwin-arm64.tar.gz"
+  sha256 "b608370f8a04419824cc2741de9326eecb3a6cba3925027ccc77e87a792fd525"
   license "Apache-2.0"
 
   livecheck do
